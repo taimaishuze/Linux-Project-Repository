@@ -310,3 +310,8 @@ ul.social-share li a:hover {
 .mainContent {
 	padding-top: 75px;
 }
+
+.mainContentNarctica {
+	padding-top: 75px;
+	background-image: url(./images/nartica1.png);
+}
