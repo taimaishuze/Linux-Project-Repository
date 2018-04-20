@@ -7,9 +7,21 @@
 
 body {
   background: #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #333;
+  line-height:1.6em;
+}
+
+.nartica {
+  background-image: url("arg1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-position: 50% 0%; 
   font-family:'Open Sans', Arial, sans-serif;
   color:#333;
   line-height:1.6em;
+  padding-top:0;
+  margin: 0;
 }
 
 h1,
@@ -307,11 +319,6 @@ ul.social-share li a:hover {
   padding-bottom: 0;
 }
 
-.mainContent {
+.mainContent {	
 	padding-top: 75px;
-}
-
-.mainContentNarctica {
-	padding-top: 75px;
-	background-image: url(./images/nartica1.png);
 }
