@@ -12,18 +12,6 @@ body {
   line-height:1.6em;
 }
 
-.nartica {
-  background-image: url("arg1.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-position: 50% 0%; 
-  font-family:'Open Sans', Arial, sans-serif;
-  color:#333;
-  line-height:1.6em;
-  padding-top:0;
-  margin: 0;
-}
-
 h1,
 h2,
 h3,
@@ -321,4 +309,27 @@ ul.social-share li a:hover {
 
 .mainContent {	
 	padding-top: 75px;
+}
+
+div.images {
+display: block;
+background-color: transparent;
+}
+
+div.images img {
+display: block;
+float: left;
+width: 228px;
+height: 228px;
+border-style: solid;
+border-width: 3px;
+border-color: #000000;
+}
+
+.clear {
+clear: both;
+height: 0;
+width: 0;
+font-size: 3px;
+line-height: 0;
 }
